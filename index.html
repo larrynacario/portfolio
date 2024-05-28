@@ -15,14 +15,25 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
      <style>
-        .container {
+         .container {
             display: flex;
             flex-wrap: wrap;
-            gap: 20px;
         }
-        .container li {
+        .column {
+            flex: 1;
+            min-width: 250px; /* Adjust as needed */
+            margin: 10px;
+        }
+        .column ul {
             list-style: none;
-            width: calc(50% - 10px); /* Adjust width based on the gap */
+            padding: 0;
+        }
+        .column li {
+            margin-bottom: 10px;
+        }
+        .fa-li {
+            position: relative;
+            left: -2em; /* Adjust as needed */
         }
     </style>
     </head>
@@ -151,113 +162,46 @@
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Systems/Websites Developed</h2>
-                  <ul class="container">
-                         <li>
-                            <span class="fa-li"><i class="fas fa-bolt"></i></span>
-                            <a href="https://forefrontph.com" target="_blank">FOREFRONTPH News Site</a>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-bolt"></i></span>
-                            <a href="https://ictstore.forefrontph.com/" target="_blank">Online ICT E-Commerce Site</a>
-                        </li>
-                       <li>
-                            <span class="fa-li"><i class="fas fa-bolt"></i></span>
-                            <a href="https://messaging.forefrontph.com/" target="_blank">Chat Messenger Web App</a>
-                        </li>
-                         <li>
-                            <span class="fa-li"><i class="fas fa-bolt"></i></span>
-                            <a href="https://idgen2.forefrontph.com" target="_blank">Online ID Generator System</a>
-                        </li>
-                         <li>
-                            <span class="fa-li"><i class="fas fa-bolt"></i></span>
-                            <a href="https://cb.forefrontph.com/" target="_blank">Chatbot Web App</a>
-                        </li>
-                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <a href="https://score.forefrontph.com/" target="_blank">Scoreboard Web App</a>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <a href="https://cashierpos.forefrontph.com/" target="_blank">Point of Sale</a>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <a href="https://avms.forefrontph.com" target="_blank">Apartment Visitor Management System</a>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <a href="https://libinfosys.forefrontph.com/admin" target="_blank">Library Management System</a>
-                        </li>
-                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <a href="https://trackmansys.forefrontph.com/" target="_blank">Tracking/Monitoring Management System</a>
-                        </li>
-                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <a href="https://poll.forefrontph.com/" target="_blank">Online Election System</a>
-                        </li>
-                        
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <a href="https://stockms.forefrontph.com/" target="_blank">Stock Management System</a>
-                        </li>
-                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <a href="https://spms.forefrontph.com/" target="_blank">Payroll System</a>
-                        </li>
-                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <a href="https://ajms.forefrontph.com/" target="_blank">Accounting Journal Management System</a>
-                        </li>
-                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <a href="https://ears.forefrontph.com/" target="_blank">Employee Attendance Record System</a>
-                        </li>
-                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <a href="https://css.forefrontph.com/" target="_blank">Customer Support System</a>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <a href="https://pms.forefrontph.com/" target="_blank">Project Management System</a>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <a href="https://evgpls.forefrontph.com/" target="_blank">Employee and Visitor Gate Pass Logging System</a>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <a href="https://ers.forefrontph.com/" target="_blank">Event Reservation System with QR Code</a>
-                        </li>
-                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <a href="https://sfss.forefrontph.com/" target="_blank">School Faculty Scheduling System</a>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <a href="https://sas.forefrontph.com/" target="_blank">Student Attendance Management System</a>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <a href="https://enroll.forefrontph.com/" target="_blank">School Enrollment System</a>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <a href="https://hms.forefrontph.com/" target="_blank">Hotel Management System</a>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <a href="https://ahss.forefrontph.com/" target="_blank">Brgy Assembly Hall Scheduling System</a>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <a href="https://tqs.forefrontph.com/" target="_blank">Transaction Queueing Management System</a>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <a href="https://bsrs.forefrontph.com/" target="_blank">Bus Seat Reservation</a>
-                        </li>
-                      </ul>
+                 <div class="container">
+        <div class="column">
+            <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fas fa-bolt"></i></span><a href="https://forefrontph.com" target="_blank">FOREFRONTPH News Site</a></li>
+                <li><span class="fa-li"><i class="fas fa-bolt"></i></span><a href="https://ictstore.forefrontph.com/" target="_blank">Online ICT E-Commerce Site</a></li>
+                <li><span class="fa-li"><i class="fas fa-bolt"></i></span><a href="https://messaging.forefrontph.com/" target="_blank">Chat Messenger Web App</a></li>
+                <li><span class="fa-li"><i class="fas fa-bolt"></i></span><a href="https://idgen2.forefrontph.com" target="_blank">Online ID Generator System</a></li>
+                <li><span class="fa-li"><i class="fas fa-bolt"></i></span><a href="https://cb.forefrontph.com/" target="_blank">Chatbot Web App</a></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><a href="https://score.forefrontph.com/" target="_blank">Scoreboard Web App</a></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><a href="https://cashierpos.forefrontph.com/" target="_blank">Point of Sale</a></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><a href="https://avms.forefrontph.com" target="_blank">Apartment Visitor Management System</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><a href="https://libinfosys.forefrontph.com/admin" target="_blank">Library Management System</a></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><a href="https://trackmansys.forefrontph.com/" target="_blank">Tracking/Monitoring Management System</a></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><a href="https://poll.forefrontph.com/" target="_blank">Online Election System</a></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><a href="https://stockms.forefrontph.com/" target="_blank">Stock Management System</a></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><a href="https://spms.forefrontph.com/" target="_blank">Payroll System</a></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><a href="https://ajms.forefrontph.com/" target="_blank">Accounting Journal Management System</a></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><a href="https://ears.forefrontph.com/" target="_blank">Employee Attendance Record System</a></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><a href="https://css.forefrontph.com/" target="_blank">Customer Support System</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><a href="https://pms.forefrontph.com/" target="_blank">Project Management System</a></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><a href="https://evgpls.forefrontph.com/" target="_blank">Employee and Visitor Gate Pass Logging System</a></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><a href="https://ers.forefrontph.com/" target="_blank">Event Reservation System with QR Code</a></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><a href="https://sfss.forefrontph.com/" target="_blank">School Faculty Scheduling System</a></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><a href="https://sas.forefrontph.com/" target="_blank">Student Attendance Management System</a></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><a href="https://enroll.forefrontph.com/" target="_blank">School Enrollment System</a></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><a href="https://hms.forefrontph.com/" target="_blank">Hotel Management System</a></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><a href="https://ahss.forefrontph.com/" target="_blank">Brgy Assembly Hall Scheduling System</a></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><a href="https://tqs.forefrontph.com/" target="_blank">Transaction Queueing Management System</a></li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><a href="https://bsrs.forefrontph.com/" target="_blank">Bus Seat Reservation</a></li>
+            </ul>
+        </div>
+    </div>
                  
                    
                 </div>
